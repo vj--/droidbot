@@ -13,8 +13,9 @@ Droidbot will receive the request, search Frinkiac for 'Hello, World' and return
 ## setup
 
 1. Slack will need to be configured to have command `/droid` pass to the URL of the server this project is run on.
-2. Modify `slacked/SlackConfig.go` with the parameters you get from Slack
-3. Run the server by `go run main.go` or `go install` and running `droidbot` from the bin folder
+2. Install package `go get github.com/vj--/droidbot`
+3. Modify `slacked/SlackConfig.go` with the parameters you get from Slack
+4. Run the server by `go run main.go` or `go install` and running `droidbot` from the bin folder
 
 --------------------------------------------------------------------------------
 
